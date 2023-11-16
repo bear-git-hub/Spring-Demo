@@ -31,7 +31,10 @@ jobs:
       run: mvn -B package --file pom.xml
 
     - name: Echo Hello World
-      run: echo "Echo Hello World"
+      run: echo "Echo Hello World ..."
+
+    - name: Run Spring Demo Application
+      run: java com.example.demo.DemoApplication
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
 #    - name: Update dependency graph
