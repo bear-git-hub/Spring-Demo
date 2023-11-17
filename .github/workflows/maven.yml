@@ -36,7 +36,7 @@ jobs:
     - name: Run Spring Demo Application
 #      run: java -version
 #      run: mvn exec:java -version
-      run: mvn exec:java -Dexec.mainClass="com.example.demo."
+      run: mvn exec:java -Dexec.mainClass="com.example.demo.DemoApplication"
 
     # Optional: Uploads the full dependency graph to GitHub to improve the quality of Dependabot alerts this repository can receive
 #    - name: Update dependency graph
